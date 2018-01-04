@@ -1,0 +1,26 @@
+PODS:
+  - mob_sharesdk (4.0.7):
+    - mob_sharesdk/ShareSDK (= 4.0.7)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.0.7):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.0.7):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/Line (4.0.7):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.0.9)
+
+DEPENDENCIES:
+  - mob_sharesdk
+  - mob_sharesdk/ShareSDKExtension
+  - mob_sharesdk/ShareSDKPlatforms/Line
+
+SPEC CHECKSUMS:
+  mob_sharesdk: 91a81feb5a5552947b809ccae1e4806655cc842c
+  MOBFoundation: 82b27b95c37d5a6d874d58efa6365b465c8afcbf
+
+PODFILE CHECKSUM: 2048ff35228994c76344eeaf42a426493c755089
+
+COCOAPODS: 1.2.0
